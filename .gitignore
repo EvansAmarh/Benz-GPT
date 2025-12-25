@@ -1,3 +1,35 @@
-venv/
+# ----------------------
+# Python Virtual Environments
+# ----------------------
 .venv/
+venv/
 env/
+
+# ----------------------
+# Python Bytecode
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+
+# ----------------------
+# OS generated files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Optional: Jupyter Notebook checkpoints
+# ----------------------
+.ipynb_checkpoints/
